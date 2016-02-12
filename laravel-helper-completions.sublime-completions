@@ -3,7 +3,7 @@
 
   "completions": [{
     "trigger": "array_add",
-    "contents": "array_add(${1:\\$array}, ${2:\\$key}, ${2:\\$value});$0"
+    "contents": "array_add(${1:\\$array}, ${2:\\$key}, ${3:\\$value});$0"
   }, {
     "trigger": "array_build",
     "contents": "array_build(${1:\\$array}, ${2:callable \\$callback});$0"
@@ -114,7 +114,7 @@
     "contents": "last(${1:\\$array});$0"
   }, {
     "trigger": "object_get",
-    "contents": "object_get(${1:\\$object}, ${2:\\$key}, ${2:\\$default = null});$0"
+    "contents": "object_get(${1:\\$object}, ${2:\\$key}, ${3:\\$default = null});$0"
   }, {
     "trigger": "preg_replace_sub",
     "contents": "preg_replace_sub(${1:\\$pattern}, ${2:\\$replacements}, ${3:\\$subject});$0"
