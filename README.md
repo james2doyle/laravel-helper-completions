@@ -1,6 +1,24 @@
 # laravel-helper-completions
 
-A set of completions for Laravel 5 helper functions
+> A set of completions for Laravel 5 helper functions.
+
+## Installing
+
+#### Package Control
+
+Just look for `laravel-helper-completions` on [Package Control](https://sublime.wbond.net/packages/).
+
+#### Manual
+
+* Open the Commands Palette (command+shift+p or ctrl+shift+p)
+* Package Control: Add Repository
+* Past in [this repos URL](https://github.com/james2doyle/laravel-helper-completions)
+* Press Enter
+* Open the palette again
+* press enter on "laravel-helper-completions"
+* watch it install
+
+## List
 
 * [array_add](https://laravel.com/docs/master/helpers#method-array-add)
 * [array_build](https://laravel.com/docs/master/helpers#method-array-build)
