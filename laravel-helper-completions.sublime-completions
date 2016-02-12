@@ -1,0 +1,149 @@
+{
+  "scope": "source.php - comment - constant.other.class - entity - meta.catch - meta.class - meta.function.arguments - meta.use - string - support.class - variable.other",
+
+  "completions": [{
+    "trigger": "array_add",
+    "contents": "array_add(${1:\\$array}, ${2:\\$key}, ${2:\\$value});$0"
+  }, {
+    "trigger": "array_build",
+    "contents": "array_build(${1:\\$array}, ${2:callable \\$callback});$0"
+  }, {
+    "trigger": "array_collapse",
+    "contents": "array_collapse(${1:\\$array});$0"
+  }, {
+    "trigger": "array_divide",
+    "contents": "array_divide(${1:\\$array});$0"
+  }, {
+    "trigger": "array_dot",
+    "contents": "array_dot(${1:\\$array}, ${2:\\$prepend = \"\"});$0"
+  }, {
+    "trigger": "array_except",
+    "contents": "array_except(${1:\\$array}, ${2:\\$keys});$0"
+  }, {
+    "trigger": "array_first",
+    "contents": "array_first(${1:\\$array}, ${2:callable \\$callback}, ${3:\\$default = null});$0"
+  }, {
+    "trigger": "array_flatten",
+    "contents": "array_flatten(${1:\\$array}, ${2:\\$depth = INF});$0"
+  }, {
+    "trigger": "array_forget",
+    "contents": "array_forget(${1:\\$array}, ${2:\\$keys});$0"
+  }, {
+    "trigger": "array_get",
+    "contents": "array_get(${1:\\$array}, ${2:\\$key}, ${3:\\$default = null});$0"
+  }, {
+    "trigger": "array_has",
+    "contents": "array_has(${1:\\$array}, ${2:\\$key});$0"
+  }, {
+    "trigger": "array_last",
+    "contents": "array_last(${1:\\$array}, ${2:callable \\$callback}, ${3:\\$default = null});$0"
+  }, {
+    "trigger": "array_only",
+    "contents": "array_only(${1:\\$array}, ${2:\\$keys});$0"
+  }, {
+    "trigger": "array_pluck",
+    "contents": "array_pluck(${1:\\$array}, ${2:\\$value}, ${3:\\$key = null});$0"
+  }, {
+    "trigger": "array_prepend",
+    "contents": "array_prepend(${1:\\$array}, ${2:\\$value}, ${3:\\$key = null});$0"
+  }, {
+    "trigger": "array_pull",
+    "contents": "array_pull(${1:\\$array}, ${2:\\$key}, ${3:\\$default = null});$0"
+  }, {
+    "trigger": "array_set",
+    "contents": "array_set(${1:\\$array}, ${2:\\$key}, ${3:\\$value});$0"
+  }, {
+    "trigger": "array_sort",
+    "contents": "array_sort(${1:\\$array}, ${3:callable \\$callback});$0"
+  }, {
+    "trigger": "array_sort_recursive",
+    "contents": "array_sort_recursive(${1:\\$array});$0"
+  }, {
+    "trigger": "array_where",
+    "contents": "array_where(${1:\\$array}, ${2:callable \\$callback});$0"
+  }, {
+    "trigger": "camel_case",
+    "contents": "camel_case(${1:\\$value});$0"
+  }, {
+    "trigger": "class_basename",
+    "contents": "class_basename(${1:\\$class});$0"
+  }, {
+    "trigger": "class_uses_recursive",
+    "contents": "class_uses_recursive(${1:\\$class});$0"
+  }, {
+    "trigger": "collect",
+    "contents": "collect(${1:\\$array = null});$0"
+  }, {
+    "trigger": "data_get",
+    "contents": "data_get(${1:\\$target}, ${2:\\$key}, ${3:\\$default = null});$0"
+  }, {
+    "trigger": "dd",
+    "contents": "dd(${1:\\$value});$0"
+  }, {
+    "trigger": "e",
+    "contents": "e(${1:\\$value});$0"
+  }, {
+    "trigger": "ends_with",
+    "contents": "ends_with(${1:\\$haystack}, ${2:\\$needles});$0"
+  }, {
+    "trigger": "head",
+    "contents": "head(${1:\\$array});$0"
+  }, {
+    "trigger": "last",
+    "contents": "last(${1:\\$array});$0"
+  }, {
+    "trigger": "object_get",
+    "contents": "object_get(${1:\\$object}, ${2:\\$key}, ${2:\\$default = null});$0"
+  }, {
+    "trigger": "preg_replace_sub",
+    "contents": "preg_replace_sub(${1:\\$pattern}, ${2:\\$replacements}, ${3:\\$subject});$0"
+  }, {
+    "trigger": "snake_case",
+    "contents": "snake_case(${1:\\$value}, ${2:\\$delimiter = \"_\"});$0"
+  }, {
+    "trigger": "starts_with",
+    "contents": "starts_with(${1:\\$haystack}, ${2:\\$needles});$0"
+  }, {
+    "trigger": "str_contains",
+    "contents": "str_contains(${1:\\$haystack}, ${2:\\$needles});$0"
+  }, {
+    "trigger": "str_finish",
+    "contents": "str_finish(${1:\\$value}, ${2:\\$cap});$0"
+  }, {
+    "trigger": "str_is",
+    "contents": "str_is(${1:\\$pattern}, ${2:\\$value});$0"
+  }, {
+    "trigger": "str_limit",
+    "contents": "str_limit(${1:\\$value}, ${2:\\$limit = 100}, ${3:\\$end = \"...\"});$0"
+  }, {
+    "trigger": "str_plural",
+    "contents": "str_plural(${1:\\$value}, ${2:\\$count = 2});$0"
+  }, {
+    "trigger": "str_random",
+    "contents": "str_random(${1:\\$length = 16});$0"
+  }, {
+    "trigger": "str_replace_array",
+    "contents": "str_replace_array(${1:\\$search}, ${2:array \\$replace}, ${3:\\$subject});$0"
+  }, {
+    "trigger": "str_singular",
+    "contents": "str_singular(${1:\\$value});$0"
+  }, {
+    "trigger": "str_slug",
+    "contents": "str_slug(${1:\\$title}, ${2:\\$separator = \"-\"});$0"
+  }, {
+    "trigger": "studly_case",
+    "contents": "studly_case(${1:\\$value});$0"
+  }, {
+    "trigger": "title_case",
+    "contents": "title_case(${1:\\$value});$0"
+  }, {
+    "trigger": "trait_uses_recursive",
+    "contents": "trait_uses_recursive(${1:\\$trait});$0"
+  }, {
+    "trigger": "value",
+    "contents": "value(${1:\\$value});$0"
+  }, {
+    "trigger": "with",
+    "contents": "with(${1:\\$object});$0"
+  }]
+}
