@@ -62,6 +62,27 @@
     "trigger": "array_where",
     "contents": "array_where(${1:\\$array}, ${2:callable \\$callback});$0"
   }, {
+    "trigger": "app_path",
+    "contents": "app_path(${1:\\$uri});$0"
+  }, {
+    "trigger": "base_path",
+    "contents": "base_path(${1:\\$uri});$0"
+  }, {
+    "trigger": "config_path",
+    "contents": "config_path();$0"
+  }, {
+    "trigger": "database_path",
+    "contents": "database_path();$0"
+  }, {
+    "trigger": "elixir",
+    "contents": "elixir(${1:\\$file});$0"
+  }, {
+    "trigger": "public_path",
+    "contents": "public_path();$0"
+  }, {
+    "trigger": "storage_path",
+    "contents": "storage_path(${1:\\$uri});$0"
+  }, {
     "trigger": "camel_case",
     "contents": "camel_case(${1:\\$value});$0"
   }, {
@@ -140,10 +161,76 @@
     "trigger": "trait_uses_recursive",
     "contents": "trait_uses_recursive(${1:\\$trait});$0"
   }, {
+    "trigger": "action",
+    "contents": "action(\"${1:ControllerName@method}\");$0"
+  }, {
+    "trigger": "asset",
+    "contents": "asset(\"${1:\\$path}\");$0"
+  }, {
+    "trigger": "secure_asset",
+    "contents": "secure_asset(\"${1:\\$path}\", ${2:\\$title}, ${3:\\$attributes = []});$0"
+  }, {
+    "trigger": "route",
+    "contents": "route(\"${1:\\$name}\", ${2:\\$args = []});$0"
+  }, {
+    "trigger": "url",
+    "contents": "url(\"${1:\\$name}\", ${2:\\$args = []});$0"
+  }, {
+    "trigger": "auth",
+    "contents": "auth();$0"
+  }, {
+    "trigger": "back",
+    "contents": "back();$0"
+  }, {
+    "trigger": "bcrypt",
+    "contents": "bcrypt(${1:\\$value});$0"
+  }, {
+    "trigger": "config",
+    "contents": "config(${1:\\$key});$0"
+  }, {
+    "trigger": "csrf_field",
+    "contents": "csrf_field();$0"
+  }, {
+    "trigger": "csrf_token",
+    "contents": "csrf_token();$0"
+  }, {
+    "trigger": "dispatch",
+    "contents": "dispatch(new App\Jobs\${1:ClassName});$0"
+  }, {
+    "trigger": "env",
+    "contents": "env(${1:\\$key}, ${2:\\$default});$0"
+  }, {
+    "trigger": "event",
+    "contents": "event(new App\Events\${1:ClassName});$0"
+  }, {
+    "trigger": "factory",
+    "contents": "factory(App\${1:ClassName}::class);$0"
+  }, {
+    "trigger": "method_field",
+    "contents": "method_field(${1:\\$method});$0"
+  }, {
+    "trigger": "old",
+    "contents": "old(${1:\\$key}, ${2:\\$default});$0"
+  }, {
+    "trigger": "redirect",
+    "contents": "redirect(${1:\\$uri});$0"
+  }, {
+    "trigger": "request",
+    "contents": "request(${1:\\$key}, ${2:\\$default = null});$0"
+  }, {
+    "trigger": "response",
+    "contents": "response(${1:\\$value}, ${2:\\$httpStatusCode = 200}, ${3:\\$headers = []});$0"
+  }, {
+    "trigger": "session",
+    "contents": "session(${1:\\$key});$0"
+  }, {
+    "trigger": "view",
+    "contents": "view(${1:\\$key});$0"
+  }, {
     "trigger": "value",
     "contents": "value(${1:\\$value});$0"
   }, {
     "trigger": "with",
-    "contents": "with(${1:\\$object});$0"
+    "contents": "with(new ${1:ClassName});$0"
   }]
 }
