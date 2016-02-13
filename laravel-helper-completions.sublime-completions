@@ -195,16 +195,16 @@
     "contents": "csrf_token();$0"
   }, {
     "trigger": "dispatch",
-    "contents": "dispatch(new App\\Jobs\\${1:ClassName});$0"
+    "contents": "dispatch(new ${1:App\\Jobs\\ClassName});$0"
   }, {
     "trigger": "env",
     "contents": "env(${1:\\$key}, ${2:\\$default});$0"
   }, {
     "trigger": "event",
-    "contents": "event(new App\\Events\\${1:ClassName});$0"
+    "contents": "event(new ${1:App\\Events\\ClassName});$0"
   }, {
     "trigger": "factory",
-    "contents": "factory(App\\${1:ClassName}::class);$0"
+    "contents": "factory(${1:App\\ClassName}::class);$0"
   }, {
     "trigger": "method_field",
     "contents": "method_field(${1:\\$method});$0"
