@@ -6,7 +6,7 @@
 
 #### Package Control
 
-Just look for `laravel-helper-completions` on [Package Control](https://sublime.wbond.net/packages/).
+Just look for `laravel helper` on [Package Control](https://sublime.wbond.net/packages/). You can see the project on [Package Control](https://packagecontrol.io/packages/Laravel%20Helper%20Completions) as well.
 
 #### Manual
 
