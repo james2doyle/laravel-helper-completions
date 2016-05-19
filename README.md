@@ -8,6 +8,8 @@
 
 Just look for `laravel helper` on [Package Control](https://sublime.wbond.net/packages/). You can see the project on [Package Control](https://packagecontrol.io/packages/Laravel%20Helper%20Completions) as well.
 
+If you have [Medalink/laravel-blade](https://github.com/Medalink/laravel-blade) installed, then this should also allow the completions inside blade tags.
+
 #### Manual
 
 * Open the Commands Palette (command+shift+p or ctrl+shift+p)
