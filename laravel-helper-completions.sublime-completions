@@ -1,236 +1,236 @@
 {
-  "scope": "source.php - comment - constant.other.class - entity - meta.catch - meta.class - meta.function.arguments - meta.use - string - support.class - variable.other",
+  "scope": "source.php, meta.embedded.line.php",
 
   "completions": [{
-    "trigger": "array_add",
-    "contents": "array_add(${1:\\$array}, ${2:\\$key}, ${3:\\$value});$0"
+    "trigger": "array_add\tL5 Array Add ",
+    "contents": "array_add(${1:\\$array}, ${2:\\$key}, ${3:\\$value})$0"
   }, {
-    "trigger": "array_build",
-    "contents": "array_build(${1:\\$array}, ${2:callable \\$callback});$0"
+    "trigger": "array_build\tL5 Array Build ",
+    "contents": "array_build(${1:\\$array}, ${2:callable \\$callback})$0"
   }, {
-    "trigger": "array_collapse",
-    "contents": "array_collapse(${1:\\$array});$0"
+    "trigger": "array_collapse\tL5 Array Collapse ",
+    "contents": "array_collapse(${1:\\$array})$0"
   }, {
-    "trigger": "array_divide",
-    "contents": "array_divide(${1:\\$array});$0"
+    "trigger": "array_divide\tL5 Array Divide ",
+    "contents": "array_divide(${1:\\$array})$0"
   }, {
-    "trigger": "array_dot",
-    "contents": "array_dot(${1:\\$array}, ${2:\\$prepend = \"\"});$0"
+    "trigger": "array_dot\tL5 Array Dot ",
+    "contents": "array_dot(${1:\\$array}, ${2:\\$prepend = \"\"})$0"
   }, {
-    "trigger": "array_except",
-    "contents": "array_except(${1:\\$array}, ${2:\\$keys});$0"
+    "trigger": "array_except\tL5 Array Except ",
+    "contents": "array_except(${1:\\$array}, ${2:\\$keys})$0"
   }, {
-    "trigger": "array_first",
-    "contents": "array_first(${1:\\$array}, ${2:callable \\$callback}, ${3:\\$default = null});$0"
+    "trigger": "array_first\tL5 Array First ",
+    "contents": "array_first(${1:\\$array}, ${2:callable \\$callback}, ${3:\\$default = null})$0"
   }, {
-    "trigger": "array_flatten",
-    "contents": "array_flatten(${1:\\$array}, ${2:\\$depth = INF});$0"
+    "trigger": "array_flatten\tL5 Array Flatten ",
+    "contents": "array_flatten(${1:\\$array}, ${2:\\$depth = INF})$0"
   }, {
-    "trigger": "array_forget",
-    "contents": "array_forget(${1:\\$array}, ${2:\\$keys});$0"
+    "trigger": "array_forget\tL5 Array Forget ",
+    "contents": "array_forget(${1:\\$array}, ${2:\\$keys})$0"
   }, {
-    "trigger": "array_get",
-    "contents": "array_get(${1:\\$array}, ${2:\\$key}, ${3:\\$default = null});$0"
+    "trigger": "array_get\tL5 Array Get ",
+    "contents": "array_get(${1:\\$array}, ${2:\\$key}, ${3:\\$default = null})$0"
   }, {
-    "trigger": "array_has",
-    "contents": "array_has(${1:\\$array}, ${2:\\$key});$0"
+    "trigger": "array_has\tL5 Array Has ",
+    "contents": "array_has(${1:\\$array}, ${2:\\$key})$0"
   }, {
-    "trigger": "array_last",
-    "contents": "array_last(${1:\\$array}, ${2:callable \\$callback}, ${3:\\$default = null});$0"
+    "trigger": "array_last\tL5 Array Last ",
+    "contents": "array_last(${1:\\$array}, ${2:callable \\$callback}, ${3:\\$default = null})$0"
   }, {
-    "trigger": "array_only",
-    "contents": "array_only(${1:\\$array}, ${2:\\$keys});$0"
+    "trigger": "array_only\tL5 Array Only ",
+    "contents": "array_only(${1:\\$array}, ${2:\\$keys})$0"
   }, {
-    "trigger": "array_pluck",
-    "contents": "array_pluck(${1:\\$array}, ${2:\\$value}, ${3:\\$key = null});$0"
+    "trigger": "array_pluck\tL5 Array Pluck ",
+    "contents": "array_pluck(${1:\\$array}, ${2:\\$value}, ${3:\\$key = null})$0"
   }, {
-    "trigger": "array_prepend",
-    "contents": "array_prepend(${1:\\$array}, ${2:\\$value}, ${3:\\$key = null});$0"
+    "trigger": "array_prepend\tL5 Array Prepend ",
+    "contents": "array_prepend(${1:\\$array}, ${2:\\$value}, ${3:\\$key = null})$0"
   }, {
-    "trigger": "array_pull",
-    "contents": "array_pull(${1:\\$array}, ${2:\\$key}, ${3:\\$default = null});$0"
+    "trigger": "array_pull\tL5 Array Pull ",
+    "contents": "array_pull(${1:\\$array}, ${2:\\$key}, ${3:\\$default = null})$0"
   }, {
-    "trigger": "array_set",
-    "contents": "array_set(${1:\\$array}, ${2:\\$key}, ${3:\\$value});$0"
+    "trigger": "array_set\tL5 Array Set ",
+    "contents": "array_set(${1:\\$array}, ${2:\\$key}, ${3:\\$value})$0"
   }, {
-    "trigger": "array_sort",
-    "contents": "array_sort(${1:\\$array}, ${3:callable \\$callback});$0"
+    "trigger": "array_sort\tL5 Array Sort ",
+    "contents": "array_sort(${1:\\$array}, ${3:callable \\$callback})$0"
   }, {
-    "trigger": "array_sort_recursive",
-    "contents": "array_sort_recursive(${1:\\$array});$0"
+    "trigger": "array_sort_recursive\tL5 Array Sort Recursive ",
+    "contents": "array_sort_recursive(${1:\\$array})$0"
   }, {
-    "trigger": "array_where",
-    "contents": "array_where(${1:\\$array}, ${2:callable \\$callback});$0"
+    "trigger": "array_where\tL5 Array Where ",
+    "contents": "array_where(${1:\\$array}, ${2:callable \\$callback})$0"
   }, {
-    "trigger": "app_path",
-    "contents": "app_path(${1:\\$uri});$0"
+    "trigger": "app_path\tL5 App Path ",
+    "contents": "app_path(${1:\\$uri})$0"
   }, {
-    "trigger": "base_path",
-    "contents": "base_path(${1:\\$uri});$0"
+    "trigger": "base_path\tL5 Base Path ",
+    "contents": "base_path(${1:\\$uri})$0"
   }, {
-    "trigger": "config_path",
-    "contents": "config_path();$0"
+    "trigger": "config_path\tL5 Config Path ",
+    "contents": "config_path()$0"
   }, {
-    "trigger": "database_path",
-    "contents": "database_path();$0"
+    "trigger": "database_path\tL5 Database Path ",
+    "contents": "database_path()$0"
   }, {
-    "trigger": "elixir",
-    "contents": "elixir(${1:\\$file});$0"
+    "trigger": "elixir\tL5 Elixir ",
+    "contents": "elixir(${1:\\$file})$0"
   }, {
-    "trigger": "public_path",
-    "contents": "public_path();$0"
+    "trigger": "public_path\tL5 Public Path ",
+    "contents": "public_path()$0"
   }, {
-    "trigger": "storage_path",
-    "contents": "storage_path(${1:\\$uri});$0"
+    "trigger": "storage_path\tL5 Storage Path ",
+    "contents": "storage_path(${1:\\$uri})$0"
   }, {
-    "trigger": "camel_case",
-    "contents": "camel_case(${1:\\$value});$0"
+    "trigger": "camel_case\tL5 Camel Case ",
+    "contents": "camel_case(${1:\\$value})$0"
   }, {
-    "trigger": "class_basename",
-    "contents": "class_basename(${1:\\$class});$0"
+    "trigger": "class_basename\tL5 Class Basename ",
+    "contents": "class_basename(${1:\\$class})$0"
   }, {
-    "trigger": "class_uses_recursive",
-    "contents": "class_uses_recursive(${1:\\$class});$0"
+    "trigger": "class_uses_recursive\tL5 Class Uses Recursive ",
+    "contents": "class_uses_recursive(${1:\\$class})$0"
   }, {
-    "trigger": "collect",
-    "contents": "collect(${1:\\$array = null});$0"
+    "trigger": "collect\tL5 Collect ",
+    "contents": "collect(${1:\\$array = null})$0"
   }, {
-    "trigger": "data_get",
-    "contents": "data_get(${1:\\$target}, ${2:\\$key}, ${3:\\$default = null});$0"
+    "trigger": "data_get\tL5 Data Get ",
+    "contents": "data_get(${1:\\$target}, ${2:\\$key}, ${3:\\$default = null})$0"
   }, {
-    "trigger": "dd",
-    "contents": "dd(${1:\\$value});$0"
+    "trigger": "dd\tL5 Dd ",
+    "contents": "dd(${1:\\$value})$0"
   }, {
-    "trigger": "e",
-    "contents": "e(${1:\\$value});$0"
+    "trigger": "e\tL5 E ",
+    "contents": "e(${1:\\$value})$0"
   }, {
-    "trigger": "ends_with",
-    "contents": "ends_with(${1:\\$haystack}, ${2:\\$needles});$0"
+    "trigger": "ends_with\tL5 Ends With ",
+    "contents": "ends_with(${1:\\$haystack}, ${2:\\$needles})$0"
   }, {
-    "trigger": "head",
-    "contents": "head(${1:\\$array});$0"
+    "trigger": "head\tL5 Head ",
+    "contents": "head(${1:\\$array})$0"
   }, {
-    "trigger": "last",
-    "contents": "last(${1:\\$array});$0"
+    "trigger": "last\tL5 Last ",
+    "contents": "last(${1:\\$array})$0"
   }, {
-    "trigger": "object_get",
-    "contents": "object_get(${1:\\$object}, ${2:\\$key}, ${3:\\$default = null});$0"
+    "trigger": "object_get\tL5 Object Get ",
+    "contents": "object_get(${1:\\$object}, ${2:\\$key}, ${3:\\$default = null})$0"
   }, {
-    "trigger": "preg_replace_sub",
-    "contents": "preg_replace_sub(${1:\\$pattern}, ${2:\\$replacements}, ${3:\\$subject});$0"
+    "trigger": "preg_replace_sub\tL5 Preg Replace Sub ",
+    "contents": "preg_replace_sub(${1:\\$pattern}, ${2:\\$replacements}, ${3:\\$subject})$0"
   }, {
-    "trigger": "snake_case",
-    "contents": "snake_case(${1:\\$value}, ${2:\\$delimiter = \"_\"});$0"
+    "trigger": "snake_case\tL5 Snake Case ",
+    "contents": "snake_case(${1:\\$value}, ${2:\\$delimiter = \"_\"})$0"
   }, {
-    "trigger": "starts_with",
-    "contents": "starts_with(${1:\\$haystack}, ${2:\\$needles});$0"
+    "trigger": "starts_with\tL5 Starts With ",
+    "contents": "starts_with(${1:\\$haystack}, ${2:\\$needles})$0"
   }, {
-    "trigger": "str_contains",
-    "contents": "str_contains(${1:\\$haystack}, ${2:\\$needles});$0"
+    "trigger": "str_contains\tL5 Str Contains ",
+    "contents": "str_contains(${1:\\$haystack}, ${2:\\$needles})$0"
   }, {
-    "trigger": "str_finish",
-    "contents": "str_finish(${1:\\$value}, ${2:\\$cap});$0"
+    "trigger": "str_finish\tL5 Str Finish ",
+    "contents": "str_finish(${1:\\$value}, ${2:\\$cap})$0"
   }, {
-    "trigger": "str_is",
-    "contents": "str_is(${1:\\$pattern}, ${2:\\$value});$0"
+    "trigger": "str_is\tL5 Str Is ",
+    "contents": "str_is(${1:\\$pattern}, ${2:\\$value})$0"
   }, {
-    "trigger": "str_limit",
-    "contents": "str_limit(${1:\\$value}, ${2:\\$limit = 100}, ${3:\\$end = \"...\"});$0"
+    "trigger": "str_limit\tL5 Str Limit ",
+    "contents": "str_limit(${1:\\$value}, ${2:\\$limit = 100}, ${3:\\$end = \"...\"})$0"
   }, {
-    "trigger": "str_plural",
-    "contents": "str_plural(${1:\\$value}, ${2:\\$count = 2});$0"
+    "trigger": "str_plural\tL5 Str Plural ",
+    "contents": "str_plural(${1:\\$value}, ${2:\\$count = 2})$0"
   }, {
-    "trigger": "str_random",
-    "contents": "str_random(${1:\\$length = 16});$0"
+    "trigger": "str_random\tL5 Str Random ",
+    "contents": "str_random(${1:\\$length = 16})$0"
   }, {
-    "trigger": "str_replace_array",
-    "contents": "str_replace_array(${1:\\$search}, ${2:array \\$replace}, ${3:\\$subject});$0"
+    "trigger": "str_replace_array\tL5 Str Replace Array ",
+    "contents": "str_replace_array(${1:\\$search}, ${2:array \\$replace}, ${3:\\$subject})$0"
   }, {
-    "trigger": "str_singular",
-    "contents": "str_singular(${1:\\$value});$0"
+    "trigger": "str_singular\tL5 Str Singular ",
+    "contents": "str_singular(${1:\\$value})$0"
   }, {
-    "trigger": "str_slug",
-    "contents": "str_slug(${1:\\$title}, ${2:\\$separator = \"-\"});$0"
+    "trigger": "str_slug\tL5 Str Slug ",
+    "contents": "str_slug(${1:\\$title}, ${2:\\$separator = \"-\"})$0"
   }, {
-    "trigger": "studly_case",
-    "contents": "studly_case(${1:\\$value});$0"
+    "trigger": "studly_case\tL5 Studly Case ",
+    "contents": "studly_case(${1:\\$value})$0"
   }, {
-    "trigger": "title_case",
-    "contents": "title_case(${1:\\$value});$0"
+    "trigger": "title_case\tL5 Title Case ",
+    "contents": "title_case(${1:\\$value})$0"
   }, {
-    "trigger": "trait_uses_recursive",
-    "contents": "trait_uses_recursive(${1:\\$trait});$0"
+    "trigger": "trait_uses_recursive\tL5 Trait Uses Recursive ",
+    "contents": "trait_uses_recursive(${1:\\$trait})$0"
   }, {
-    "trigger": "action",
-    "contents": "action(\"${1:ControllerName@method}\");$0"
+    "trigger": "action\tL5 Action ",
+    "contents": "action(\"${1:ControllerName@method}\")$0"
   }, {
-    "trigger": "asset",
-    "contents": "asset(\"${1:\\$path}\");$0"
+    "trigger": "asset\tL5 Asset ",
+    "contents": "asset(\"${1:\\$path}\")$0"
   }, {
-    "trigger": "secure_asset",
-    "contents": "secure_asset(\"${1:\\$path}\", ${2:\\$title}, ${3:\\$attributes = []});$0"
+    "trigger": "secure_asset\tL5 Secure Asset ",
+    "contents": "secure_asset(\"${1:\\$path}\", ${2:\\$title}, ${3:\\$attributes = []})$0"
   }, {
-    "trigger": "route",
-    "contents": "route(\"${1:\\$name}\", ${2:\\$args = []});$0"
+    "trigger": "route\tL5 Route ",
+    "contents": "route(\"${1:\\$name}\", ${2:\\$args = []})$0"
   }, {
-    "trigger": "url",
-    "contents": "url(\"${1:\\$name}\", ${2:\\$args = []});$0"
+    "trigger": "url\tL5 Url ",
+    "contents": "url(\"${1:\\$name}\", ${2:\\$args = []})$0"
   }, {
-    "trigger": "auth",
-    "contents": "auth();$0"
+    "trigger": "auth\tL5 Auth ",
+    "contents": "auth()$0"
   }, {
-    "trigger": "back",
-    "contents": "back();$0"
+    "trigger": "back\tL5 Back ",
+    "contents": "back()$0"
   }, {
-    "trigger": "bcrypt",
-    "contents": "bcrypt(${1:\\$value});$0"
+    "trigger": "bcrypt\tL5 Bcrypt ",
+    "contents": "bcrypt(${1:\\$value})$0"
   }, {
-    "trigger": "config",
-    "contents": "config(${1:\\$key});$0"
+    "trigger": "config\tL5 Config ",
+    "contents": "config(${1:\\$key})$0"
   }, {
-    "trigger": "csrf_field",
-    "contents": "csrf_field();$0"
+    "trigger": "csrf_field\tL5 Csrf Field ",
+    "contents": "csrf_field()$0"
   }, {
-    "trigger": "csrf_token",
-    "contents": "csrf_token();$0"
+    "trigger": "csrf_token\tL5 Csrf Token ",
+    "contents": "csrf_token()$0"
   }, {
-    "trigger": "dispatch",
-    "contents": "dispatch(new ${1:App\\Jobs\\ClassName});$0"
+    "trigger": "dispatch\tL5 Dispatch ",
+    "contents": "dispatch(new ${1:App\\Jobs\\ClassName})$0"
   }, {
-    "trigger": "env",
-    "contents": "env(${1:\\$key}, ${2:\\$default});$0"
+    "trigger": "env\tL5 Env ",
+    "contents": "env(${1:\\$key}, ${2:\\$default})$0"
   }, {
-    "trigger": "event",
-    "contents": "event(new ${1:App\\Events\\ClassName});$0"
+    "trigger": "event\tL5 Event ",
+    "contents": "event(new ${1:App\\Events\\ClassName})$0"
   }, {
-    "trigger": "factory",
-    "contents": "factory(${1:App\\ClassName}::class);$0"
+    "trigger": "factory\tL5 Factory ",
+    "contents": "factory(${1:App\\ClassName}::class)$0"
   }, {
-    "trigger": "method_field",
-    "contents": "method_field(${1:\\$method});$0"
+    "trigger": "method_field\tL5 Method Field ",
+    "contents": "method_field(${1:\\$method})$0"
   }, {
-    "trigger": "old",
-    "contents": "old(${1:\\$key}, ${2:\\$default});$0"
+    "trigger": "old\tL5 Old ",
+    "contents": "old(${1:\\$key}, ${2:\\$default})$0"
   }, {
-    "trigger": "redirect",
-    "contents": "redirect(${1:\\$uri});$0"
+    "trigger": "redirect\tL5 Redirect ",
+    "contents": "redirect(${1:\\$uri})$0"
   }, {
-    "trigger": "request",
-    "contents": "request(${1:\\$key}, ${2:\\$default = null});$0"
+    "trigger": "request\tL5 Request ",
+    "contents": "request(${1:\\$key}, ${2:\\$default = null})$0"
   }, {
-    "trigger": "response",
-    "contents": "response(${1:\\$value}, ${2:\\$httpStatusCode = 200}, ${3:\\$headers = []});$0"
+    "trigger": "response\tL5 Response ",
+    "contents": "response(${1:\\$value}, ${2:\\$httpStatusCode = 200}, ${3:\\$headers = []})$0"
   }, {
-    "trigger": "session",
-    "contents": "session(${1:\\$key});$0"
+    "trigger": "session\tL5 Session ",
+    "contents": "session(${1:\\$key})$0"
   }, {
-    "trigger": "view",
-    "contents": "view(${1:\\$key});$0"
+    "trigger": "view\tL5 View ",
+    "contents": "view(${1:\\$key})$0"
   }, {
-    "trigger": "value",
-    "contents": "value(${1:\\$value});$0"
+    "trigger": "value\tL5 Value ",
+    "contents": "value(${1:\\$value})$0"
   }, {
-    "trigger": "with",
-    "contents": "with(new ${1:ClassName});$0"
+    "trigger": "with\tL5 With ",
+    "contents": "with(new ${1:ClassName})$0"
   }]
 }
