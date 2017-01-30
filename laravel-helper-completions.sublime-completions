@@ -80,6 +80,9 @@
     "trigger": "public_path\tL5 Public Path ",
     "contents": "public_path()$0"
   }, {
+    "trigger": "resource_path\tL5 Resource Path ",
+    "contents": "resource_path()$0"
+  }, {
     "trigger": "storage_path\tL5 Storage Path ",
     "contents": "storage_path(${1:\\$uri})$0"
   }, {
@@ -91,9 +94,6 @@
   }, {
     "trigger": "class_uses_recursive\tL5 Class Uses Recursive ",
     "contents": "class_uses_recursive(${1:\\$class})$0"
-  }, {
-    "trigger": "collect\tL5 Collect ",
-    "contents": "collect(${1:\\$array = null})$0"
   }, {
     "trigger": "data_get\tL5 Data Get ",
     "contents": "data_get(${1:\\$target}, ${2:\\$key}, ${3:\\$default = null})$0"
@@ -158,6 +158,12 @@
     "trigger": "title_case\tL5 Title Case ",
     "contents": "title_case(${1:\\$value})$0"
   }, {
+    "trigger": "trans\tL5 Translate",
+    "contents": "trans(${1:\\$value})$0"
+  }, {
+    "trigger": "trans_choice\tL5 Translate Inflection",
+    "contents": "trans_choice(${1:\\$value}, ${2:\\$count})$0"
+  }, {
     "trigger": "trait_uses_recursive\tL5 Trait Uses Recursive ",
     "contents": "trait_uses_recursive(${1:\\$trait})$0"
   }, {
@@ -176,6 +182,18 @@
     "trigger": "url\tL5 Url ",
     "contents": "url(\"${1:\\$name}\", ${2:\\$args = []})$0"
   }, {
+    "trigger": "secure_url\tL5 Secure Url ",
+    "contents": "secure_url(\"${1:\\$name}\", ${2:\\$args = []})$0"
+  }, {
+    "trigger": "abort\tL5 Abort",
+    "contents": "abort(\"${1:\\$code}\", ${2:\\$message})$0"
+  }, {
+    "trigger": "abort_if\tL5 Abort If",
+    "contents": "abort_if(\"${1:\\$boolean}\", ${2:\\$code})$0"
+  }, {
+    "trigger": "abort_unless\tL5 Abort Unless",
+    "contents": "abort_unless(\"${1:\\$boolean}\", ${2:\\$code})$0"
+  }, {
     "trigger": "auth\tL5 Auth ",
     "contents": "auth()$0"
   }, {
@@ -184,6 +202,12 @@
   }, {
     "trigger": "bcrypt\tL5 Bcrypt ",
     "contents": "bcrypt(${1:\\$value})$0"
+  }, {
+    "trigger": "cache\tL5 Cache ",
+    "contents": "cache(${1:\\$key}${2:, \\$value})$0"
+  }, {
+    "trigger": "collect\tL5 Collection",
+    "contents": "collect(${1:\\$array = null})$0"
   }, {
     "trigger": "config\tL5 Config ",
     "contents": "config(${1:\\$key})$0"
@@ -206,6 +230,12 @@
     "trigger": "factory\tL5 Factory ",
     "contents": "factory(${1:App\\ClassName}::class)$0"
   }, {
+    "trigger": "info\tL5 Info",
+    "contents": "info(${1:\\$message})$0"
+  }, {
+    "trigger": "logger\tL5 Logger",
+    "contents": "logger(${1:\\$message})$0"
+  }, {
     "trigger": "method_field\tL5 Method Field ",
     "contents": "method_field(${1:\\$method})$0"
   }, {
@@ -220,6 +250,9 @@
   }, {
     "trigger": "response\tL5 Response ",
     "contents": "response(${1:\\$value}, ${2:\\$httpStatusCode = 200}, ${3:\\$headers = []})$0"
+  }, {
+    "trigger": "rety\tL5 Function Retry",
+    "contents": "rety(${1:\\$counter}, ${2:\\function}, ${3:\\$timeout})$0"
   }, {
     "trigger": "session\tL5 Session ",
     "contents": "session(${1:\\$key})$0"
