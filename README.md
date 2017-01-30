@@ -1,6 +1,6 @@
 # laravel-helper-completions
 
-> A set of completions for Laravel 5 helper functions.
+> A set of completions for Laravel 5.x helper functions.
 
 ## Installing
 
@@ -8,17 +8,17 @@
 
 Just look for `laravel helper` on [Package Control](https://sublime.wbond.net/packages/). You can see the project on [Package Control](https://packagecontrol.io/packages/Laravel%20Helper%20Completions) as well.
 
-If you have [Medalink/laravel-blade](https://github.com/Medalink/laravel-blade) installed, then this should also allow the completions inside blade tags.
+If you have [Medalink/laravel-blade](https://github.com/Medalink/laravel-blade) installed, then this should also allow the completions inside blade tags too.
 
 #### Manual
 
-* Open the Commands Palette (command+shift+p or ctrl+shift+p)
-* Package Control: Add Repository
+* Open the Commands Palette (`command+shift+p` or `ctrl+shift+p`)
+* Package Control: `Add Repository`
 * Past in [this repos URL](https://github.com/james2doyle/laravel-helper-completions)
 * Press Enter
 * Open the palette again
-* press enter on "laravel-helper-completions"
-* watch it install
+* Press enter on "laravel-helper-completions"
+* Watch it install
 
 ## List
 
