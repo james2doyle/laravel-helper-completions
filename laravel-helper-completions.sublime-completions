@@ -2,11 +2,158 @@
   "scope": "source.php, meta.embedded.line.php",
 
   "completions": [{
+    "trigger": "abort\tL5 Abort",
+    "contents": "abort(${1:\\$code}, ${2:\\$message = ''}, ${3:array \\$headers = []})$0"
+  }, {
+    "trigger": "abort_if\tL5 Abort If",
+    "contents": "abort_if(${1:\\$boolean}, ${2:\\$code}, ${3:\\$message = ''}, ${4:array \\$headers = []})$0"
+  }, {
+    "trigger": "abort_unless\tL5 Abort Unless",
+    "contents": "abort_unless(${1:\\$boolean}, ${2:\\$code}, ${3:\\$message = ''}, ${4:array \\$headers = []})$0"
+  }, {
+    "trigger": "action\tL5 Action",
+    "contents": "action(${1:\\$name}, ${2:\\$parameters = []}, ${3:\\$absolute = true})$0"
+  }, {
+    "trigger": "app\tL5 App",
+    "contents": "app(${1:\\$abstract = null}, ${2:array \\$parameters = []})$0"
+  }, {
+    "trigger": "app_path\tL5 App Path",
+    "contents": "app_path(${1:\\$path = ''})$0"
+  }, {
+    "trigger": "asset\tL5 Asset",
+    "contents": "asset(${1:\\$path}, ${2:\\$secure = null})$0"
+  }, {
+    "trigger": "auth\tL5 Auth",
+    "contents": "auth(${1:\\$guard = null})$0"
+  }, {
+    "trigger": "back\tL5 Back",
+    "contents": "back(${1:\\$status = 302}, ${2:\\$headers = []}, ${3:\\$fallback = false})$0"
+  }, {
+    "trigger": "base_path\tL5 Base Path",
+    "contents": "base_path(${1:\\$path = ''})$0"
+  }, {
+    "trigger": "bcrypt\tL5 Bcrypt",
+    "contents": "bcrypt(${1:\\$value}, ${2:\\$options = []})$0"
+  }, {
+    "trigger": "broadcast\tL5 Broadcast",
+    "contents": "broadcast(${1:\\$event = null})$0"
+  }, {
+    "trigger": "cache\tL5 Cache",
+    "contents": "cache()$0"
+  }, {
+    "trigger": "config\tL5 Config",
+    "contents": "config(${1:\\$key = null}, ${2:\\$default = null})$0"
+  }, {
+    "trigger": "config_path\tL5 Config Path",
+    "contents": "config_path(${1:\\$path = ''})$0"
+  }, {
+    "trigger": "cookie\tL5 Cookie",
+    "contents": "cookie(${1:\\$name = null}, ${2:\\$value = null}, ${3:\\$minutes = 0}, ${4:\\$path = null}, ${5:\\$domain = null}, ${6:\\$secure = false}, ${7:\\$httpOnly = true})$0"
+  }, {
+    "trigger": "csrf_field\tL5 Csrf Field",
+    "contents": "csrf_field()$0"
+  }, {
+    "trigger": "csrf_token\tL5 Csrf Token",
+    "contents": "csrf_token()$0"
+  }, {
+    "trigger": "database_path\tL5 Database Path",
+    "contents": "database_path(${1:\\$path = ''})$0"
+  }, {
+    "trigger": "decrypt\tL5 Decrypt",
+    "contents": "decrypt(${1:\\$value})$0"
+  }, {
+    "trigger": "dispatch\tL5 Dispatch",
+    "contents": "dispatch(${1:\\$job})$0"
+  }, {
+    "trigger": "elixir\tL5 Elixir",
+    "contents": "elixir(${1:\\$file}, ${2:\\$buildDirectory = 'build'})$0"
+  }, {
+    "trigger": "encrypt\tL5 Encrypt",
+    "contents": "encrypt(${1:\\$value})$0"
+  }, {
+    "trigger": "env\tL5 Env",
+    "contents": "env(${1:\\$key}, ${2:\\$default = null})$0"
+  }, {
+    "trigger": "event\tL5 Event",
+    "contents": "event(${1:\\...$args})$0"
+  }, {
+    "trigger": "factory\tL5 Factory",
+    "contents": "factory()$0"
+  }, {
+    "trigger": "info\tL5 Info",
+    "contents": "info(${1:\\$message}, ${2:\\$context = []})$0"
+  }, {
+    "trigger": "logger\tL5 Logger",
+    "contents": "logger(${1:\\$message = null}, ${2:array \\$context = []})$0"
+  }, {
+    "trigger": "method_field\tL5 Method Field",
+    "contents": "method_field(${1:\\$method})$0"
+  }, {
+    "trigger": "mix\tL5 Mix",
+    "contents": "mix(${1:\\$path}, ${2:\\$manifestDirectory = ''})$0"
+  }, {
+    "trigger": "old\tL5 Old",
+    "contents": "old(${1:\\$key = null}, ${2:\\$default = null})$0"
+  }, {
+    "trigger": "policy\tL5 Policy",
+    "contents": "policy(${1:\\$class})$0"
+  }, {
+    "trigger": "public_path\tL5 Public Path",
+    "contents": "public_path(${1:\\$path = ''})$0"
+  }, {
+    "trigger": "redirect\tL5 Redirect",
+    "contents": "redirect(${1:\\$to = null}, ${2:\\$status = 302}, ${3:\\$headers = []}, ${4:\\$secure = null})$0"
+  }, {
+    "trigger": "request\tL5 Request",
+    "contents": "request(${1:\\$key = null}, ${2:\\$default = null})$0"
+  }, {
+    "trigger": "resolve\tL5 Resolve",
+    "contents": "resolve(${1:\\$name})$0"
+  }, {
+    "trigger": "resource_path\tL5 Resource Path",
+    "contents": "resource_path(${1:\\$path = ''})$0"
+  }, {
+    "trigger": "response\tL5 Response",
+    "contents": "response(${1:\\$content = ''}, ${2:\\$status = 200}, ${3:array \\$headers = []})$0"
+  }, {
+    "trigger": "route\tL5 Route",
+    "contents": "route(${1:\\$name}, ${2:\\$parameters = []}, ${3:\\$absolute = true})$0"
+  }, {
+    "trigger": "secure_asset\tL5 Secure Asset",
+    "contents": "secure_asset(${1:\\$path})$0"
+  }, {
+    "trigger": "secure_url\tL5 Secure Url",
+    "contents": "secure_url(${1:\\$path}, ${2:\\$parameters = []})$0"
+  }, {
+    "trigger": "session\tL5 Session",
+    "contents": "session(${1:\\$key = null}, ${2:\\$default = null})$0"
+  }, {
+    "trigger": "storage_path\tL5 Storage Path",
+    "contents": "storage_path(${1:\\$path = ''})$0"
+  }, {
+    "trigger": "trans\tL5 Trans",
+    "contents": "trans(${1:\\$id = null}, ${2:\\$replace = []}, ${3:\\$locale = null})$0"
+  }, {
+    "trigger": "trans_choice\tL5 Trans Choice",
+    "contents": "trans_choice(${1:\\$id}, ${2:\\$number}, ${3:array \\$replace = []}, ${4:\\$locale = null})$0"
+  }, {
+    "trigger": "__\tL5 Translate",
+    "contents": "__(${1:\\$key = null}, ${2:\\$replace = []}, ${3:\\$locale = null})$0"
+  }, {
+    "trigger": "url\tL5 Url",
+    "contents": "url(${1:\\$path = null}, ${2:\\$parameters = []}, ${3:\\$secure = null})$0"
+  }, {
+    "trigger": "validator\tL5 Validator",
+    "contents": "validator(${1:array \\$data = []}, ${2:array \\$rules = []}, ${3:array \\$messages = []}, ${4:array \\$customAttributes = []})$0"
+  }, {
+    "trigger": "view\tL5 View",
+    "contents": "view(${1:\\$view = null}, ${2:\\$data = []}, ${3:\\$mergeData = []})$0"
+  }, {
+    "trigger": "append_config\tL5 Append Config",
+    "contents": "append_config(${1:\\$array})$0"
+  }, {
     "trigger": "array_add\tL5 Array Add",
     "contents": "array_add(${1:\\$array}, ${2:\\$key}, ${3:\\$value})$0"
-  }, {
-    "trigger": "array_build\tL5 Array Build",
-    "contents": "array_build(${1:\\$array}, ${2:callable \\$callback})$0"
   }, {
     "trigger": "array_collapse\tL5 Array Collapse",
     "contents": "array_collapse(${1:\\$array})$0"
@@ -15,28 +162,28 @@
     "contents": "array_divide(${1:\\$array})$0"
   }, {
     "trigger": "array_dot\tL5 Array Dot",
-    "contents": "array_dot(${1:\\$array}, ${2:\\$prepend = \"\"})$0"
+    "contents": "array_dot(${1:\\$array}, ${2:\\$prepend = ''})$0"
   }, {
     "trigger": "array_except\tL5 Array Except",
     "contents": "array_except(${1:\\$array}, ${2:\\$keys})$0"
   }, {
     "trigger": "array_first\tL5 Array First",
-    "contents": "array_first(${1:\\$array}, ${2:callable \\$callback}, ${3:\\$default = null})$0"
+    "contents": "array_first(${1:\\$array}, ${2:callable \\$callback = null}, ${3:\\$default = null})$0"
   }, {
     "trigger": "array_flatten\tL5 Array Flatten",
     "contents": "array_flatten(${1:\\$array}, ${2:\\$depth = INF})$0"
   }, {
     "trigger": "array_forget\tL5 Array Forget",
-    "contents": "array_forget(${1:\\$array}, ${2:\\$keys})$0"
+    "contents": "array_forget(${1:&\\$array}, ${2:\\$keys})$0"
   }, {
     "trigger": "array_get\tL5 Array Get",
     "contents": "array_get(${1:\\$array}, ${2:\\$key}, ${3:\\$default = null})$0"
   }, {
     "trigger": "array_has\tL5 Array Has",
-    "contents": "array_has(${1:\\$array}, ${2:\\$key})$0"
+    "contents": "array_has(${1:\\$array}, ${2:\\$keys})$0"
   }, {
     "trigger": "array_last\tL5 Array Last",
-    "contents": "array_last(${1:\\$array}, ${2:callable \\$callback}, ${3:\\$default = null})$0"
+    "contents": "array_last(${1:\\$array}, ${2:callable \\$callback = null}, ${3:\\$default = null})$0"
   }, {
     "trigger": "array_only\tL5 Array Only",
     "contents": "array_only(${1:\\$array}, ${2:\\$keys})$0"
@@ -48,13 +195,13 @@
     "contents": "array_prepend(${1:\\$array}, ${2:\\$value}, ${3:\\$key = null})$0"
   }, {
     "trigger": "array_pull\tL5 Array Pull",
-    "contents": "array_pull(${1:\\$array}, ${2:\\$key}, ${3:\\$default = null})$0"
+    "contents": "array_pull(${1:&\\$array}, ${2:\\$key}, ${3:\\$default = null})$0"
   }, {
     "trigger": "array_set\tL5 Array Set",
-    "contents": "array_set(${1:\\$array}, ${2:\\$key}, ${3:\\$value})$0"
+    "contents": "array_set(${1:&\\$array}, ${2:\\$key}, ${3:\\$value})$0"
   }, {
     "trigger": "array_sort\tL5 Array Sort",
-    "contents": "array_sort(${1:\\$array}, ${3:callable \\$callback})$0"
+    "contents": "array_sort(${1:\\$array}, ${2:callable \\$callback})$0"
   }, {
     "trigger": "array_sort_recursive\tL5 Array Sort Recursive",
     "contents": "array_sort_recursive(${1:\\$array})$0"
@@ -62,29 +209,8 @@
     "trigger": "array_where\tL5 Array Where",
     "contents": "array_where(${1:\\$array}, ${2:callable \\$callback})$0"
   }, {
-    "trigger": "app_path\tL5 App Path",
-    "contents": "app_path(${1:\\$uri})$0"
-  }, {
-    "trigger": "base_path\tL5 Base Path",
-    "contents": "base_path(${1:\\$uri})$0"
-  }, {
-    "trigger": "config_path\tL5 Config Path",
-    "contents": "config_path()$0"
-  }, {
-    "trigger": "database_path\tL5 Database Path",
-    "contents": "database_path()$0"
-  }, {
-    "trigger": "elixir\tL5 Elixir",
-    "contents": "elixir(${1:\\$file})$0"
-  }, {
-    "trigger": "public_path\tL5 Public Path",
-    "contents": "public_path()$0"
-  }, {
-    "trigger": "resource_path\tL5 Resource Path",
-    "contents": "resource_path()$0"
-  }, {
-    "trigger": "storage_path\tL5 Storage Path",
-    "contents": "storage_path(${1:\\$uri})$0"
+    "trigger": "array_wrap\tL5 Array Wrap",
+    "contents": "array_wrap(${1:\\$value})$0"
   }, {
     "trigger": "camel_case\tL5 Camel Case",
     "contents": "camel_case(${1:\\$value})$0"
@@ -95,32 +221,47 @@
     "trigger": "class_uses_recursive\tL5 Class Uses Recursive",
     "contents": "class_uses_recursive(${1:\\$class})$0"
   }, {
+    "trigger": "collect\tL5 collect",
+    "contents": "collect(${1:\\$value = null})$0"
+  }, {
+    "trigger": "data_fill\tL5 Data Fill",
+    "contents": "data_fill(${1:&\\$target}, ${2:\\$key}, ${3:\\$value})$0"
+  }, {
     "trigger": "data_get\tL5 Data Get",
     "contents": "data_get(${1:\\$target}, ${2:\\$key}, ${3:\\$default = null})$0"
   }, {
-    "trigger": "dd\tL5 Dd",
-    "contents": "dd(${1:\\$value})$0"
+    "trigger": "data_set\tL5 Data Set",
+    "contents": "data_set(${1:&\\$target}, ${2:\\$key}, ${3:\\$value}, ${4:\\$overwrite = true})$0"
   }, {
-    "trigger": "e\tL5 E",
+    "trigger": "dd\tL5 dd",
+    "contents": "dd(${1:...\\$args})$0"
+  }, {
+    "trigger": "e\tL5 e",
     "contents": "e(${1:\\$value})$0"
   }, {
     "trigger": "ends_with\tL5 Ends With",
-    "contents": "ends_with(${1:\\$haystack}, ${2:\\$needles})$0"
+    "contents": "ends_with(${1:\\${1:\\$haystack}}, ${2:\\$needles})$0"
   }, {
-    "trigger": "head\tL5 Head",
+    "trigger": "head\tL5 head",
     "contents": "head(${1:\\$array})$0"
   }, {
-    "trigger": "last\tL5 Last",
+    "trigger": "kebab_case\tL5 Kebab Case",
+    "contents": "kebab_case(${1:\\$value})$0"
+  }, {
+    "trigger": "last\tL5 last",
     "contents": "last(${1:\\$array})$0"
   }, {
     "trigger": "object_get\tL5 Object Get",
     "contents": "object_get(${1:\\$object}, ${2:\\$key}, ${3:\\$default = null})$0"
   }, {
-    "trigger": "preg_replace_sub\tL5 Preg Replace Sub",
-    "contents": "preg_replace_sub(${1:\\$pattern}, ${2:\\$replacements}, ${3:\\$subject})$0"
+    "trigger": "preg_replace_array\tL5 Preg Replace Array",
+    "contents": "preg_replace_array(${1:\\$pattern}, ${2:array \\$replacements}, ${3:\\$subject})$0"
+  }, {
+    "trigger": "retry\tL5 retry",
+    "contents": "retry(${1:\\$times}, ${2:callable \\$callback}, ${3:\\$sleep = 0})$0"
   }, {
     "trigger": "snake_case\tL5 Snake Case",
-    "contents": "snake_case(${1:\\$value}, ${2:\\$delimiter = \"_\"})$0"
+    "contents": "snake_case(${1:\\$value}, ${2:\\$delimiter = '_'})$0"
   }, {
     "trigger": "starts_with\tL5 Starts With",
     "contents": "starts_with(${1:\\$haystack}, ${2:\\$needles})$0"
@@ -135,7 +276,7 @@
     "contents": "str_is(${1:\\$pattern}, ${2:\\$value})$0"
   }, {
     "trigger": "str_limit\tL5 Str Limit",
-    "contents": "str_limit(${1:\\$value}, ${2:\\$limit = 100}, ${3:\\$end = \"...\"})$0"
+    "contents": "str_limit(${1:\\$value}, ${2:\\$limit = 100}, ${3:\\$end = '...'})$0"
   }, {
     "trigger": "str_plural\tL5 Str Plural",
     "contents": "str_plural(${1:\\$value}, ${2:\\$count = 2})$0"
@@ -146,124 +287,37 @@
     "trigger": "str_replace_array\tL5 Str Replace Array",
     "contents": "str_replace_array(${1:\\$search}, ${2:array \\$replace}, ${3:\\$subject})$0"
   }, {
+    "trigger": "str_replace_first\tL5 Str Replace First",
+    "contents": "str_replace_first(${1:\\$search}, ${2:\\$replace}, ${3:\\$subject})$0"
+  }, {
+    "trigger": "str_replace_last\tL5 Str Replace Last",
+    "contents": "str_replace_last(${1:\\$search}, ${2:\\$replace}, ${3:\\$subject})$0"
+  }, {
     "trigger": "str_singular\tL5 Str Singular",
     "contents": "str_singular(${1:\\$value})$0"
   }, {
     "trigger": "str_slug\tL5 Str Slug",
-    "contents": "str_slug(${1:\\$title}, ${2:\\$separator = \"-\"})$0"
+    "contents": "str_slug($title, ${2:\\$separator = '-'})$0"
   }, {
     "trigger": "studly_case\tL5 Studly Case",
     "contents": "studly_case(${1:\\$value})$0"
   }, {
+    "trigger": "tap\tL5 tap",
+    "contents": "tap(${1:\\$value}, ${2:\\$callback = null})$0"
+  }, {
     "trigger": "title_case\tL5 Title Case",
     "contents": "title_case(${1:\\$value})$0"
-  }, {
-    "trigger": "trans\tL5 Translate",
-    "contents": "trans(${1:\\$value})$0"
-  }, {
-    "trigger": "trans_choice\tL5 Translate Inflection",
-    "contents": "trans_choice(${1:\\$value}, ${2:\\$count})$0"
   }, {
     "trigger": "trait_uses_recursive\tL5 Trait Uses Recursive",
     "contents": "trait_uses_recursive(${1:\\$trait})$0"
   }, {
-    "trigger": "action\tL5 Action",
-    "contents": "action(\"${1:ControllerName@method}\")$0"
-  }, {
-    "trigger": "asset\tL5 Asset",
-    "contents": "asset(\"${1:\\$path}\")$0"
-  }, {
-    "trigger": "secure_asset\tL5 Secure Asset",
-    "contents": "secure_asset(\"${1:\\$path}\", ${2:\\$title}, ${3:\\$attributes = []})$0"
-  }, {
-    "trigger": "route\tL5 Route",
-    "contents": "route(\"${1:\\$name}\", ${2:\\$args = []})$0"
-  }, {
-    "trigger": "url\tL5 Url",
-    "contents": "url(\"${1:\\$name}\", ${2:\\$args = []})$0"
-  }, {
-    "trigger": "secure_url\tL5 Secure Url",
-    "contents": "secure_url(\"${1:\\$name}\", ${2:\\$args = []})$0"
-  }, {
-    "trigger": "abort\tL5 Abort",
-    "contents": "abort(\"${1:\\$code}\", ${2:\\$message})$0"
-  }, {
-    "trigger": "abort_if\tL5 Abort If",
-    "contents": "abort_if(\"${1:\\$boolean}\", ${2:\\$code})$0"
-  }, {
-    "trigger": "abort_unless\tL5 Abort Unless",
-    "contents": "abort_unless(\"${1:\\$boolean}\", ${2:\\$code})$0"
-  }, {
-    "trigger": "auth\tL5 Auth",
-    "contents": "auth()$0"
-  }, {
-    "trigger": "back\tL5 Back",
-    "contents": "back()$0"
-  }, {
-    "trigger": "bcrypt\tL5 Bcrypt",
-    "contents": "bcrypt(${1:\\$value})$0"
-  }, {
-    "trigger": "cache\tL5 Cache",
-    "contents": "cache(${1:\\$key}${2:, \\$value})$0"
-  }, {
-    "trigger": "collect\tL5 Collection",
-    "contents": "collect(${1:\\$array = null})$0"
-  }, {
-    "trigger": "config\tL5 Config",
-    "contents": "config(${1:\\$key})$0"
-  }, {
-    "trigger": "csrf_field\tL5 Csrf Field",
-    "contents": "csrf_field()$0"
-  }, {
-    "trigger": "csrf_token\tL5 Csrf Token",
-    "contents": "csrf_token()$0"
-  }, {
-    "trigger": "dispatch\tL5 Dispatch",
-    "contents": "dispatch(new ${1:App\\Jobs\\ClassName})$0"
-  }, {
-    "trigger": "env\tL5 Env",
-    "contents": "env(${1:\\$key}, ${2:\\$default})$0"
-  }, {
-    "trigger": "event\tL5 Event",
-    "contents": "event(new ${1:App\\Events\\ClassName})$0"
-  }, {
-    "trigger": "factory\tL5 Factory",
-    "contents": "factory(${1:App\\ClassName}::class)$0"
-  }, {
-    "trigger": "info\tL5 Info",
-    "contents": "info(${1:\\$message})$0"
-  }, {
-    "trigger": "logger\tL5 Logger",
-    "contents": "logger(${1:\\$message})$0"
-  }, {
-    "trigger": "method_field\tL5 Method Field",
-    "contents": "method_field(${1:\\$method})$0"
-  }, {
-    "trigger": "old\tL5 Old",
-    "contents": "old(${1:\\$key}, ${2:\\$default})$0"
-  }, {
-    "trigger": "redirect\tL5 Redirect",
-    "contents": "redirect(${1:\\$uri})$0"
-  }, {
-    "trigger": "request\tL5 Request",
-    "contents": "request(${1:\\$key}, ${2:\\$default = null})$0"
-  }, {
-    "trigger": "response\tL5 Response",
-    "contents": "response(${1:\\$value}, ${2:\\$httpStatusCode = 200}, ${3:\\$headers = []})$0"
-  }, {
-    "trigger": "rety\tL5 Function Retry",
-    "contents": "rety(${1:\\$counter}, ${2:\\function}, ${3:\\$timeout})$0"
-  }, {
-    "trigger": "session\tL5 Session",
-    "contents": "session(${1:\\$key})$0"
-  }, {
-    "trigger": "view\tL5 View",
-    "contents": "view(${1:\\$key})$0"
-  }, {
-    "trigger": "value\tL5 Value",
+    "trigger": "value\tL5 value",
     "contents": "value(${1:\\$value})$0"
   }, {
-    "trigger": "with\tL5 With",
-    "contents": "with(new ${1:ClassName})$0"
+    "trigger": "windows_os\tL5 Windows Os",
+    "contents": "windows_os()$0"
+  }, {
+    "trigger": "with\tL5 with",
+    "contents": "with(${1:\\$object})$0"
   }]
 }
