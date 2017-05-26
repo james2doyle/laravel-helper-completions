@@ -2,7 +2,7 @@
 
 > A set of completions for Laravel 5.x helper functions.
 
-These helpers are pulled from [framework/src/Illuminate/Support/helpers.php](https://github.com/laravel/framework/blob/3abc4fb90fe59a90c2d8cccd27e310b20e5e2631/src/Illuminate/Support/helpers.php) and [framework/src/Illuminate/Foundation/helpers.php](https://github.com/laravel/framework/blob/e19181027e957e9d855012dfd58ee9489c0f37bf/src/Illuminate/Foundation/helpers.php).
+These helpers are pulled from [Illuminate/Support/helpers.php](https://github.com/laravel/framework/blob/3abc4fb90fe59a90c2d8cccd27e310b20e5e2631/src/Illuminate/Support/helpers.php) and [Illuminate/Foundation/helpers.php](https://github.com/laravel/framework/blob/e19181027e957e9d855012dfd58ee9489c0f37bf/src/Illuminate/Foundation/helpers.php).
 
 ## Installing
 
